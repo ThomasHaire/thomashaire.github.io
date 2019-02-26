@@ -6,15 +6,19 @@
 }
 
 .navbar-default {
-  background-color: transparent;
-  border-color: transparent;
+  background-color: white;
+  border-bottom: 1px solid #f1f2f6;
   margin: 0 auto;
+  -webkit-box-shadow: 0px 4px 7px 0px rgba(174,175,176,1);
+  -moz-box-shadow: 0px 4px 7px 0px rgba(174,175,176,1);
+  box-shadow: 0px 4px 7px 0px rgba(174,175,176,1);
 }
 
 .navbar-default .navbar-nav>li>a {
   padding-top: 21px;
   color: black;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -25,18 +29,20 @@
 /*//////////////////////////////////////////
                 Header
 //////////////////////////////////////////*/
-
 .jumbotron {
   margin: 0 auto;
+  color: black;
   font-size: 80px;
   text-align: center;
   height: 100vh;
-  background-color: white;
+  background-image: url("../../images/healthtech.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   width: 100%;
-  color: black;
 }
 
 .black {
@@ -54,15 +60,12 @@
   font-weight: bold;
 }
 
-@media (min-width: @screen-sm-min) {
-  margin: 150px auto;
-}
-
 .typed-cursor {
   opacity: 1;
   animation: blink .7s infinite;
   color: #32ff7e;
 }
+
 
 @keyframes blink {
   0% {
@@ -76,10 +79,32 @@
   }
 }
 
-/*//////////////////////////////////////////
+/*/////////////////////////////////////////
                    About Me
 //////////////////////////////////////////*/
+#body {
+  width: 60%;
+  margin: 0 auto;
+}
 
-#about {
-  margin: auto;
+/*/////////////////////////////////////////
+                   Media Queries
+//////////////////////////////////////////*/
+
+@media screen and (max-width: 650px) {
+  .jumbotron {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .jumbotron {
+    font-size: 2em;
+  }
 }
