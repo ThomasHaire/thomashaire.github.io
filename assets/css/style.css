@@ -3,14 +3,16 @@
   margin: 0 auto;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+#header {
+  background-image: url("../../images/healthtech.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
   width: 100%;
-  color: black;
+  color: #ff7675;
 }
 
 .navbar {
@@ -46,6 +48,7 @@
   margin: 300px auto;
   width: 50%;
   padding: 10px;
+  font-weight: bold;
 }
 
 .black {
