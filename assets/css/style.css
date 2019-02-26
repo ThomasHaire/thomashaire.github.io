@@ -22,8 +22,8 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  background: transparent;
-  color: #32ff7e;
+  background: #e77f67;
+  color: black;
 }
 
 /*//////////////////////////////////////////
@@ -63,7 +63,7 @@
 .typed-cursor {
   opacity: 1;
   animation: blink .7s infinite;
-  color: #32ff7e;
+  color: #e77f67;
 }
 
 
@@ -82,10 +82,61 @@
 /*/////////////////////////////////////////
                    About Me
 //////////////////////////////////////////*/
-#body {
+#About {
+  padding-top: 40px;
   width: 60%;
   margin: 0 auto;
 }
+
+#About p {
+  font-size: 20px;
+}
+
+.details h1 {
+  font-weight: bold;
+}
+
+.details h2 {
+  font-weight: 600;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/*/////////////////////////////////////////
+                  Work Experience
+//////////////////////////////////////////*/
+#Work {
+  padding-top: 40px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#Work p {
+  font-size: 20px;
+}
+
+.work {
+  float: right;
+  margin-left: 10px;
+}
+
+/*/////////////////////////////////////////
+                  Projects
+//////////////////////////////////////////*/
+#Projects {
+  padding-top: 40px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#Projects p {
+  font-size: 20px;
+}
+
 
 /*/////////////////////////////////////////
                    Media Queries
@@ -95,11 +146,28 @@
   .jumbotron {
     font-size: 5em;
   }
+  #About p {
+    font-size: 15px;
+  }
+  #Work p {
+    font-size: 15px;
+
 }
 
 @media screen and (max-width: 480px) {
   .jumbotron {
     font-size: 4em;
+  }
+
+  .details h1 {
+    font-size: 25px;
+  }
+  .details h2 {
+    font-size: 20px;
+  }
+
+  .details p {
+    font-size: 15px;
   }
 }
 
@@ -107,4 +175,16 @@
   .jumbotron {
     font-size: 2em;
   }
+
+  .details h1 {
+    font-size: 15px;
+  }
+  .details h2 {
+    font-size: 12px;
+  }
+
+  .details p {
+    font-size: 10px;
+  }
+
 }
