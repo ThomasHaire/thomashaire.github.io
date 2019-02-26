@@ -1,20 +1,6 @@
-#landing-name {
-  width: 50%;
-  margin: 0 auto;
-}
-
-#header {
-  background-image: url("../../images/healthtech.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.container {
-  width: 100%;
-  color: #ff7675;
-}
-
+/*//////////////////////////////////////////
+                Navbar
+//////////////////////////////////////////*/
 .navbar {
   border-radius: 0px;
 }
@@ -36,6 +22,10 @@
   color: #32ff7e;
 }
 
+/*//////////////////////////////////////////
+                Header
+//////////////////////////////////////////*/
+
 .jumbotron {
   margin: 0 auto;
   font-size: 80px;
@@ -44,11 +34,9 @@
   background-color: white;
 }
 
-.text {
-  margin: 300px auto;
-  width: 50%;
-  padding: 10px;
-  font-weight: bold;
+.container {
+  width: 100%;
+  color: black;
 }
 
 .black {
@@ -56,21 +44,42 @@
   border: 1px solid black;
 }
 
+/*//////////////////////////////////////////
+                Typed.JS
+//////////////////////////////////////////*/
+
+.text {
+  margin: 300px auto;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: @screen-sm-min) {
+  margin: 150px auto;
+}
 
 .typed-cursor {
-       opacity: 1;
-       animation: blink .7s infinite;
-       color: #32ff7e;
-   }
+  opacity: 1;
+  animation: blink .7s infinite;
+  color: #32ff7e;
+}
 
-   @keyframes blink {
-       0% {
-           opacity: 1;
-       }
-       50% {
-           opacity: 0;
-       }
-       100% {
-           opacity: 1;
-       }
-   }
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*//////////////////////////////////////////
+                   About Me
+//////////////////////////////////////////*/
+
+#about {
+  margin: auto;
+}
