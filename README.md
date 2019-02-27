@@ -4,4 +4,6 @@
 + JavaScript
 + jQuery
 + Bootstrap
-+ Icon Cred: qeg
++ Icon Cred: Icons made by Freepik from www.flaticon.com
+
+### © 2019. All Rights Reserved. Design: Thomas Haire
