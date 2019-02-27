@@ -1,3 +1,2 @@
-# ThomasHaire.github.io
-## My Site
+My Site
 # Technologies Used
