@@ -4,4 +4,4 @@
 + JavaScript
 + jQuery
 + Bootstrap
-+ Icon Cred: 
+Icon Cred: 
