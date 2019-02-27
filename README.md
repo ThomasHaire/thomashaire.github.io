@@ -1,4 +1,4 @@
-## My Site Technologies Used
+## My Site - Technologies Used
 + HTML
 + CSS
 + JavaScript
