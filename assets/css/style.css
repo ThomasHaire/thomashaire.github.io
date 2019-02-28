@@ -7,6 +7,7 @@
 
 .navbar-default {
   background-color: white;
+  opacity: 0.984;
   border-bottom: 1px solid #f1f2f6;
   margin: 0 auto;
 }
@@ -87,6 +88,7 @@
 
 #About p {
   font-size: 20px;
+  text-align: left;
 }
 
 .details h1 {
@@ -95,6 +97,10 @@
 
 .details h2 {
   font-weight: 600;
+}
+
+.image-link:hover {
+  opacity: 0.5;
 }
 
 .shadow {
@@ -124,11 +130,7 @@ h3{
 
 #Work p {
   font-size: 20px;
-}
-
-.work {
-  float: right;
-  margin-left: 10px;
+  text-align: left;
 }
 
 /*/////////////////////////////////////////
@@ -142,6 +144,7 @@ h3{
 
 #Projects p {
   font-size: 20px;
+  text-align: left;
 }
 
 /*/////////////////////////////////////////
@@ -182,10 +185,12 @@ h3{
   color: #feca57;
 }
 
+
 i {
   font-size: 100px;
   margin: 0 100px 0 100px;
   color: #6F1E51;
+  text-align: center;
 }
 
 /*/////////////////////////////////////////
@@ -266,6 +271,10 @@ i {
     width: 100%;
   }
 
+  i {
+    font-size: 80px;
+  }
+
 }
 @media screen and (max-width: 480px) {
   .jumbotron {
@@ -303,11 +312,19 @@ i {
     width: 100%;
   }
 
+  i {
+    font-size: 50px;
+  }
+
 }
 
 @media screen and (max-width: 360px ) {
   .text {
     margin: 250px auto;
+  }
+
+  i {
+    font-size: 40px;
   }
 }
 

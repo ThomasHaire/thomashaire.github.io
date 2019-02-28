@@ -7,5 +7,5 @@ var text = new Typed('#typed', {
     showCursor: true,
     cursorChar: '[]',
     loop: true,
-    loopCount: 1
   });
+//  loopCount: 1
