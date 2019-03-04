@@ -6,22 +6,22 @@
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: #2f3640;
   opacity: 0.984;
-  border-bottom: 1px solid #f1f2f6;
+  border-bottom: 1px solid #2f3640;
   margin: 0 auto;
 }
 
 .navbar-default .navbar-nav>li>a {
   padding-top: 21px;
-  color: black;
-  font-size: 20px;
+  color: white;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  background: #e77f67;
-  color: black;
+  text-shadow: -5px 4px 2px rgba(0,0,0,0.53);
+  color: #ff4757;
 }
 
 /*//////////////////////////////////////////
@@ -29,14 +29,14 @@
 //////////////////////////////////////////*/
 .jumbotron {
   margin: 0 auto;
-  color: black;
+  color: white;
   font-size: 80px;
   text-align: center;
   height: 100vh;
-  background-image: url("../../images/healthtech.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #2f3640;
 }
 
 .container {
@@ -53,17 +53,19 @@
 //////////////////////////////////////////*/
 
 .text {
-  margin: 300px auto;
-  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: bold;
+  text-shadow: -5px 4px 2px rgba(0,0,0,0.53);
 }
 
 .typed-cursor {
   opacity: 1;
   animation: blink .7s infinite;
-  color: #e77f67;
+  color: #ff4757;
 }
-
 
 @keyframes blink {
   0% {
@@ -91,6 +93,19 @@
   text-align: left;
 }
 
+#resume {
+  background-color: #ff4757;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#resume:hover {
+  background-color: #2f3640;
+}
+
 .details h1 {
   font-weight: bold;
 }
@@ -99,14 +114,45 @@
   font-weight: 600;
 }
 
-.image-link:hover {
-  opacity: 0.5;
+.image-link {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+   -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
 }
 
-.shadow {
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-       -moz-box-shadow: 0 10px 6px -6px #777;
-            box-shadow: 0 10px 6px -6px #777;
+.overlay {
+  position: absolute;
+  transition: all .9s ease;
+  opacity: 0;
+  background-color: #eee;
+}
+
+.col-lg-2:hover .overlay {
+  opacity: .8;
+}
+
+.overlay-left {
+  height: 180px;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ff4757;
+}
+
+.message {
+  color: white;
+  position: absolute;
+  text-align: center;
+  margin: 50% 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.col-lg-2:hover .overlay-left{
+  width: 180px;
 }
 
 hr{
@@ -117,7 +163,7 @@ hr{
 }
 
 h3{
-  color: #9980FA;
+  color: #ff4757;
 }
 /*/////////////////////////////////////////
               Work Experience
@@ -193,6 +239,10 @@ i {
   text-align: center;
 }
 
+i:hover {
+  color: #2f3640;
+}
+
 /*/////////////////////////////////////////
                 Footer
 //////////////////////////////////////////*/
@@ -212,11 +262,12 @@ i {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1204px) {
   i {
     margin: 0 20px 0 20px;
   }
 }
+
 
 @media screen and (max-width: 992px) {
 
@@ -281,10 +332,6 @@ i {
     font-size: 4em;
   }
 
-  .text {
-    margin: 350px auto;
-  }
-
   .details h1 {
     font-size: 25px;
   }
@@ -319,9 +366,6 @@ i {
 }
 
 @media screen and (max-width: 360px ) {
-  .text {
-    margin: 250px auto;
-  }
 
   i {
     font-size: 40px;
@@ -329,12 +373,9 @@ i {
 }
 
 @media screen and (max-width: 320px ) {
-  .text {
-    margin: 250px auto;
-  }
 
   .jumbotron {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .details h1 {
