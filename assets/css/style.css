@@ -95,10 +95,9 @@
 
 #resume {
   background-color: #ff4757;
-  padding: 10px;
   border-radius: 5px;
   color: white;
-  font-weight: bold;
+  padding: 2px 4px;
   text-decoration: none;
 }
 

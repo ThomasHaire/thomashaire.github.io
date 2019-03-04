@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 var text = new Typed('#typed', {
   stringsElement: '#typed-strings',
   typeSpeed: 80,
