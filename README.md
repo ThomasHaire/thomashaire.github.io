@@ -1,4 +1,6 @@
-## My Site - Technologies Used
+## My Site 
++ https://thomashaire.github.io/
+## Technologies Used
 + HTML
 + CSS
 + JavaScript
