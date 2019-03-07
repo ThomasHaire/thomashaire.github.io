@@ -4,7 +4,7 @@
 + HTML
 + CSS
 + JavaScript
-+ jQuery
++ jQuery - for typed.js
 + Bootstrap
 + Icon Cred: Icons made by Freepik from www.flaticon.com
 
