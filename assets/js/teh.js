@@ -9,6 +9,6 @@ var text = new Typed('#typed', {
   backSpeed: 100,
   showCursor: true,
   cursorChar: '.',
-  loop: true
+  loop: true,
+  loopCount: 1
 });
-//  loopCount: 1
