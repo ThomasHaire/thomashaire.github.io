@@ -74,7 +74,7 @@
 .typed-cursor {
   opacity: 1;
   animation: blink .7s infinite;
-  color: #2ed573;
+  color: black;
 }
 
 @keyframes blink {
@@ -127,9 +127,7 @@
   width: 180px;
   height: 180px;
   margin: 0 auto;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-   -moz-box-shadow: 0 10px 6px -6px #777;
-        box-shadow: 0 10px 6px -6px #777;
+  filter: drop-shadow(-8px 5px 5px #57606f);
 }
 
 .overlay {
@@ -148,7 +146,7 @@
   width: 0;
   top: 0;
   bottom: 0;
-  background-color: #2ed573;
+  background-color: black;
 }
 
 .message {
