@@ -6,20 +6,20 @@
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: black;
+  border-bottom: transparent;
   opacity: 0.984;
   margin: 0 auto;
 }
 
 .navbar-default .navbar-nav>li>a {
-  padding-top: 15px;
-  color: black;
+  color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  text-shadow: -5px 4px 2px rgba(0,0,0,0.6);
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -33,6 +33,10 @@
     }
 }
 
+.navbar-header {
+    border-bottom: transparent;
+}
+
 .navbar-default .navbar-toggle {
   border-color: transparent;
   border-radius: 0;
@@ -41,11 +45,10 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: white;
   border-radius: 0;
   height: 3px;
 }
-
 
 /*//////////////////////////////////////////
                   Header
@@ -55,7 +58,7 @@
   color: white;
   font-size: 84px;
   text-align: center;
-  height: 100vh;
+  height: 97vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,6 +139,7 @@
   width: 180px;
   height: 180px;
   margin: 0 auto;
+  border-radius: 4px;
 }
 
 .overlay {
@@ -143,6 +147,7 @@
   transition: all .9s ease;
   opacity: 0;
   background-color: #eee;
+  border-radius: 4px;
 }
 
 .col-lg-2:hover .overlay {
