@@ -8,7 +8,7 @@ var text = new Typed('#typed', {
   backDelay: 700,
   backSpeed: 100,
   showCursor: true,
-  cursorChar: '.',
+  cursorChar: '_',
   loop: true,
   loopCount: 1
 });
