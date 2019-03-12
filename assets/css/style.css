@@ -9,6 +9,7 @@
   background-color: white;
   opacity: 0.984;
   margin: 0 auto;
+  border-bottom: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -54,14 +55,14 @@
 //////////////////////////////////////////*/
 .jumbotron {
   margin: 0 auto;
-  color: #00FF00;
+  color: #ff4757;
   font-size: 84px;
   text-align: center;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+  background-color: white;
   background-attachment: fixed;
 }
 
@@ -87,7 +88,7 @@
 .typed-cursor {
   opacity: 1;
   animation: blink 1s infinite;
-  color: #00FF00;
+  color: #ff4757;
 }
 
 @keyframes blink {
