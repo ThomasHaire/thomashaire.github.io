@@ -4,7 +4,8 @@
 + HTML
 + CSS
 + JavaScript
-+ jQuery - for typed.js
++ jQuery 
++ typed.js
 + Bootstrap
 
 ### © 2019. All Rights Reserved. Design: Thomas Haire
