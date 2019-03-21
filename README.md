@@ -4,8 +4,8 @@
 + HTML
 + CSS
 + JavaScript
-+ jQuery - for typed.js
++ jQuery 
++ typed.js
 + Bootstrap
-+ Icon Cred: Icons made by Freepik from www.flaticon.com
 
 ### © 2019. All Rights Reserved. Design: Thomas Haire
