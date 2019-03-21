@@ -13,9 +13,10 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: black;
+  color: #000000;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-right: 15px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -33,6 +34,13 @@
     }
 }
 
+.navbar-fixed-top.scrolled {
+  color: #000000;
+  -webkit-box-shadow:0px 1px 1px #f1f2f6;
+  -moz-box-shadow:0px 1px 1px #dfe4ea;
+  box-shadow:0px 1px 1px #747d8c;
+}
+
 .navbar-header {
     border-bottom: transparent;
 }
@@ -45,7 +53,7 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: #000000;
   border-radius: 0;
   height: 3px;
 }
@@ -55,20 +63,18 @@
 //////////////////////////////////////////*/
 .jumbotron {
   margin: 0 auto;
-  color: #ff4757;
   font-size: 84px;
   text-align: center;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: white;
   background-attachment: fixed;
+    background-color: #FFFFFF;
 }
 
 .container {
   width: 100%;
-
 }
 
 /*//////////////////////////////////////////
@@ -76,19 +82,15 @@
 //////////////////////////////////////////*/
 
 .text {
-  font-family: 'Share Tech Mono', monospace;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: bold;
-  text-shadow: -5px 4px 2px rgba(0,0,0,0.6);
 }
 
 .typed-cursor {
   opacity: 1;
   animation: blink 1s infinite;
-  color: #ff4757;
 }
 
 @keyframes blink {
@@ -137,6 +139,10 @@
   font-weight: 600;
 }
 
+hr {
+  border-top: 1px solid #8c8b8b;
+}
+
 .image-link {
   width: 180px;
   height: 180px;
@@ -144,46 +150,6 @@
   border-radius: 4px;
 }
 
-.overlay {
-  position: absolute;
-  transition: all .9s ease;
-  opacity: 0;
-  background-color: #eee;
-  border-radius: 4px;
-}
-
-.col-lg-2:hover .overlay {
-  opacity: .8;
-}
-
-.overlay-left {
-  height: 180px;
-  width: 0;
-  top: 0;
-  bottom: 0;
-  background-color: black;
-}
-
-.message {
-  color: white;
-  position: absolute;
-  text-align: center;
-  margin: 50% 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-}
-
-.col-lg-2:hover .overlay-left{
-  width: 180px;
-}
-
-hr {
-  border-top: 1px solid #8c8b8b;
-}
-
-h3{
-  color: #ff4757;
-}
 /*/////////////////////////////////////////
               Work Experience
 //////////////////////////////////////////*/
@@ -238,28 +204,15 @@ h3{
   text-align: center;
 }
 
-.fa-linkedin-in {
-  color: #ff6b6b;
-}
-
-.fa-github-alt {
-  color: #48dbfb;
-}
-
-.fa-envelope {
-  color: #feca57;
-}
-
-
 i {
   font-size: 100px;
   margin: 0 100px 0 100px;
-  color: #6F1E51;
+  color: #000000;
   text-align: center;
 }
 
 i:hover {
-  color: #2f3640;
+  opacity: 0.8;
 }
 
 /*/////////////////////////////////////////
