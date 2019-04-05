@@ -143,11 +143,16 @@ hr {
   border-top: 1px solid #8c8b8b;
 }
 
+#headshot {
+  display:block;
+  margin:auto;
+  padding-bottom: 5%;
+}
+
 .image-link {
   width: 180px;
   height: 180px;
   margin: 0 auto;
-  border-radius: 4px;
 }
 
 /*/////////////////////////////////////////
