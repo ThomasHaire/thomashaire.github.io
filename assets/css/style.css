@@ -110,7 +110,7 @@
 //////////////////////////////////////////*/
 #About {
   padding-top: 40px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -146,13 +146,20 @@ hr {
 #headshot {
   display:block;
   margin:auto;
-  padding-bottom: 5%;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+#big{
+  font-size: 100px;
 }
 
 .image-link {
   width: 180px;
   height: 180px;
   margin: 0 auto;
+
 }
 
 /*/////////////////////////////////////////
@@ -160,7 +167,7 @@ hr {
 //////////////////////////////////////////*/
 #Work {
   padding-top: 40px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -174,7 +181,7 @@ hr {
 //////////////////////////////////////////*/
 #Projects {
   padding-top: 40px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -188,7 +195,7 @@ hr {
 //////////////////////////////////////////*/
 #Leadership {
   padding-top: 40px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -201,7 +208,7 @@ hr {
 //////////////////////////////////////////*/
 #Contact {
   padding-top: 40px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -243,6 +250,7 @@ i:hover {
   i {
     margin: 0 20px 0 20px;
   }
+
 }
 
 
@@ -267,6 +275,11 @@ i:hover {
   #Contact {
     width: 100%;
   }
+ 
+  .image-link {
+   display: none; 
+  }
+
 }
 
 
