@@ -6,6 +6,6 @@
 + JavaScript
 + jQuery 
 + typed.js
-+ Bootstrap
++ Bootstrap 3
 
 ### © 2019. All Rights Reserved. Design: Thomas Haire
